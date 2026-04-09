@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'segoe UI' serif;
+
+}
+
+/* =============== hero section ================== */
+
+.hero {
+
+    background-color: #2b2d3a;
+    color: #ffff;
+    min-height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+
+}
+
+.hero .logo-circle {
+    width: 90px;
+    height: 90px;
+    border: 2px solid rgba(255,255,255,0.8);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0 auto 40px;
+    letter-spacing: 1px;
+
+}
+
+.hero h1 {
+
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #aaa;
+    font-size: 1rem;
+    width: 340px;
+    margin: 0 auto 0;
+    line-height: 1.7;
+
+}
+
+.hero .scroll-down {
+
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 38px;
+    height: 38px;
+    border: 2px solid rgba(255,255,255,0.4);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255,255,255,0.6);
+    font-size: 1rem;
+    text-decoration: none;
+
+    animation: bounce 2s infinite;
+    transition: boder-color .3s, color .2s;
+
+
+}
+
+.hero .scroll-down:hover {
+    border-color: #fff;
+    color: #fff;
+}
+
+@keyframes  bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0);}
+    50% { transform: translateX(-50%) translateY(8px);}
+ 
+}
+
+
+/* =============== About section ================== */
+
+.about {
+    padding: 80px;
+    background: #fff;
+
+}
+ .about p {
+    color: #555;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 20px;
+ }
+
+ /* =============== what i section ================== */
+
+ .what {
+    padding: 60px 20px;
+    background: #fff;
+
+ }
+
+ .what h2 {
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+
+ }
+
+ .what .service-title {
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+    margin-bottom: 8px;
+
+ }
+
+ .what p {
+    font-size: .82rem;
+   color: #777;
+    line-height: 1.7;
+
+ }
+
+ 
+ /* =============== my works ================== */
+
+ .my-work {
+
+    background-color: #2b2d3a;
+    color: #fff;
+    padding: 70px 20px;
+    text-align: center;
+
+ }
+
+ .my-work h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+
+ }
+
+ .work-filters .btn {
+    font-size: .78rem;
+    color: #ccc;
+    border: none;
+    background: none;
+    padding: 4px 12px;
+
+ }
+
+ 
+ .work-filters .btn .active, .work-filters .btn:hover {
+    color: #fff;
+    border-bottom: 2px solid #8b8f8b;
+
+ }
+
+ .work-card {
+    background: #8b8bfd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+
+ }
+
+ .work-label {
+    font-size: .9rem;
+    color: #ccc;
+    margin-bottom: 4px;
+    font-weight: 600;
+
+ }
+
+ .work-sub {
+    font-size: .78rem;
+    color: #777;
+    margin-bottom: 20px;
+ }
+
+ .section-bg {
+    background:#f4f4f4;
+    padding:80px 0;
+}
+
+.photo-box {
+    background:#7f86c9;
+    height:220px;
+    border-radius:6px;
+}
+
+.section-title {
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+.section-text {
+    max-width:600px;
+    margin:auto;
+    color:#666;
+}
+
+.footer-section{
+    background:#424a6b;
+    color:#bfc3d4;
+    padding:80px 0 40px;
+    text-align:center;
+}
+
+.news-text{
+    max-width:500px;
+    margin:auto;
+    font-size:14px;
+}
+
+.subscribe-box{
+    max-width:420px;
+    margin:auto;
+}
+
+.subscribe-btn{
+    background:#8c8fd9;
+    color:white;
+    border:none;
+}
+
+.subscribe-btn:hover{
+    background:#b7b9e7;
+}
+
+.footer-bottom{
+    border-top:1px solid rgba(156, 167, 168, 0.1);
+    margin-top:60px;
+    padding-top:30px;
+}
+
+.social-icons i{
+    margin:0 10px;
+    font-size:18px;
+    color:#bfc3d4;
+    cursor:pointer;
+}
+
+.social-icons i:hover{
+    color:white;
+}
